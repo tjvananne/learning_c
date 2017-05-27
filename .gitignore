@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Mine from here down -- TV 5/27/2017
+# these little swap file things
+*.c.swp
+
+
