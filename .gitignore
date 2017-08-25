@@ -55,4 +55,9 @@ dkms.conf
 # these little swap file things
 *.c.swp
 
+# these little windows vim file things
+*.un~
+*.c~
+*~
+
 

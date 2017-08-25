@@ -1,0 +1,49 @@
+
+integer literals:
+* 212     // legal
+* 215u    // legal
+* 0xFeeL  // legal
+* 078     // illegal - 8 is not an octal digit
+* 032UU   // illegal: cannot repeat a suffix 
+
+
+types of integers:
+85      //decimal
+0213    //octal
+0x4b    //hexadecimal
+30      //int
+30u     //unsigned int
+30l     //long
+30ul    //unsigned long
+
+
+floating point litrals:
+3.14159     //legal
+314159E-5L  //legal
+510E        //illegal incomplete exponent
+210f        //illegal no decimal component
+.e55        //illegal missing integer or fraction
+
+
+character constants:
+enclosed in single quotes 'x'
+'x' plain character
+'\t' escape sequence
+'\u02C0' or a universal character
+
+\\   \ character
+\'   ' character
+\"   " character
+\?   ? character
+\a   alert or bell
+\b   backspace
+\f   Form feed
+\n   New line
+\r   carriage return
+\t   horizontal tab
+\v   vertical tab
+\ooo octal number of one to three digits
+\xhh...  hexadecimal number of one or more digits
+
+
+
